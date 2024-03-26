@@ -22,52 +22,17 @@ namespace Squares.API.Controllers
         }
         
         [HttpGet]
-        [Route("/checkIfDotsMakeSolidShape")]
+        [Route("/IsSolidShape")]
         public bool CheckIfSolidShape(string user)
         {
             return _shapeIdentifierService.IsSolidShape(user);
         }
         
         [HttpGet]
-        [Route("/checkIfDotsMakeHollowShape")]
+        [Route("/IsHollowShape")]
         public bool CheckIfHollowShape(string user)
         {
             return _shapeIdentifierService.IsHollowShape(user);
-        }
-        
-        [HttpGet]
-        [Route("/getDots")]
-        public ICollection<PointDTO> GetDots(string user)
-        {
-            return _shapeIdentifierService.GetAll(user).Adapt<ICollection<PointDTO>>();
-        }
-
-        [HttpPut]
-        [Route("/addPoint")]
-        public void Add(string user, PointDTO point)
-        {
-            _shapeIdentifierService.Add(user, point.Adapt<Point>());
-        }
-
-        [HttpPut]
-        [Route("/addAllPoints")]
-        public void AddAll(string user, IList<PointDTO> points)
-        {
-            _shapeIdentifierService.AddAll(user, points.Adapt<IList<Point>>());
-        }
-
-        [HttpDelete]
-        [Route("/deletePoint")]
-        public void Delete(string user, PointDTO point)
-        {
-            _shapeIdentifierService.Delete(user, point.Adapt<Point>());
-        }
-
-        [HttpDelete]
-        [Route("/deleteAllPoints")]
-        public void Delete(string user)
-        {
-            _shapeIdentifierService.DeleteAll(user);
         }
     }
 }
