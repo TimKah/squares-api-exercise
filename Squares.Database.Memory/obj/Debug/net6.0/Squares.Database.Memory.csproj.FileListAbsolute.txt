@@ -1,0 +1,17 @@
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.Database.Memory.deps.json
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.Database.Memory.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\ref\Squares.Database.Memory.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.Database.Memory.pdb
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.Database.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.Database.pdb
+C:\Dev\squares-api-exercise\Squares.Database.Memory\bin\Debug\net6.0\Squares.pdb
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.csproj.AssemblyReference.cache
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.AssemblyInfoInputs.cache
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.AssemblyInfo.cs
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.csproj.CoreCompileInputs.cache
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.csproj.CopyComplete
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\ref\Squares.Database.Memory.dll
+C:\Dev\squares-api-exercise\Squares.Database.Memory\obj\Debug\net6.0\Squares.Database.Memory.pdb

@@ -1,0 +1,15 @@
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\Squares.Services.Abstractions.deps.json
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\Squares.Services.Abstractions.dll
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\ref\Squares.Services.Abstractions.dll
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\Squares.Services.Abstractions.pdb
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\Squares.dll
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\bin\Debug\net6.0\Squares.pdb
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.csproj.AssemblyReference.cache
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.AssemblyInfoInputs.cache
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.AssemblyInfo.cs
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.csproj.CoreCompileInputs.cache
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.csproj.CopyComplete
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.dll
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\ref\Squares.Services.Abstractions.dll
+C:\Dev\squares-api-exercise\Squares.Services.Abstractions\obj\Debug\net6.0\Squares.Services.Abstractions.pdb
