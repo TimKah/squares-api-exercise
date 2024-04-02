@@ -8,7 +8,7 @@ namespace Squares.Database.Redis;
 
 public abstract class RedisRepositoryBase<TRedisKeyValue, TRedisModel>
 {
-    private readonly ConcurrentDictionary<string, Lazy<Task<ConnectionMultiplexer>>> _multiplexers;
+    private readonly ConcurrentDictionary<string, Lazy<Task<ConnectionMultiplexer>>> _multiplexers = new();
     private readonly IOptions<DatabaseOptions> _dbOptions;
     
     public RedisRepositoryBase(IOptions<DatabaseOptions> dpOptions)
