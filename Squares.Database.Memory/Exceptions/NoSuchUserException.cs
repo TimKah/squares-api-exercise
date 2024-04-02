@@ -1,4 +1,4 @@
-﻿namespace Squares.DTO.Memory.Exceptions;
+﻿namespace Squares.Database.Memory.Exceptions;
 
 public class NoSuchUserException : Exception
 {

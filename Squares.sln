@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares.DTO", "Squares.DTO\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares.Tests", "Squares.Tests\Squares.Tests.csproj", "{8EB59B22-C133-429F-B42B-BB3A0DFCD7A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares.Database.Redis", "Squares.Database.Redis\Squares.Database.Redis.csproj", "{70FA803B-FF1E-4283-B54B-8A2A97F174B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares.Configuration", "Squares.Configuration\Squares.Configuration.csproj", "{B9F8DA4A-6C64-40ED-82A3-51E1245A1A0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{8EB59B22-C133-429F-B42B-BB3A0DFCD7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB59B22-C133-429F-B42B-BB3A0DFCD7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB59B22-C133-429F-B42B-BB3A0DFCD7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FA803B-FF1E-4283-B54B-8A2A97F174B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FA803B-FF1E-4283-B54B-8A2A97F174B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FA803B-FF1E-4283-B54B-8A2A97F174B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FA803B-FF1E-4283-B54B-8A2A97F174B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F8DA4A-6C64-40ED-82A3-51E1245A1A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F8DA4A-6C64-40ED-82A3-51E1245A1A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F8DA4A-6C64-40ED-82A3-51E1245A1A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F8DA4A-6C64-40ED-82A3-51E1245A1A0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

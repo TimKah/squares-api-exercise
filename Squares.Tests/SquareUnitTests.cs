@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using Squares.DTO.Memory;
+using Squares.Database.Memory;
 using Squares.Models;
 using Squares.Services;
 
@@ -9,14 +9,14 @@ namespace Squares.Tests;
 
 public class SquareUnitTests
 {
-    private PointsRepository _repository;
+    private MemoryRepository _repository;
     private SquareIdentifierService _service;
     private readonly string _user = "user";
     
     [SetUp]
     public void Setup()
     {
-        _repository = new PointsRepository();
+        _repository = new MemoryRepository();
         _service = new SquareIdentifierService(_repository);
         _service.DeleteAll(_user);
     }

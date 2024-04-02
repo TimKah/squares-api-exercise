@@ -1,15 +1,14 @@
 ﻿using System.Collections.Concurrent;
-using Squares.Database;
-using Squares.DTO.Memory.Exceptions;
+using Squares.Database.Memory.Exceptions;
 using Squares.Models;
 
-namespace Squares.DTO.Memory;
+namespace Squares.Database.Memory;
 
-public class PointsRepository : IPointsRepository
+public class MemoryRepository : IPointsRepository
 {
     private readonly ConcurrentDictionary<string, List<Point>> _points;
 
-    public PointsRepository()
+    public MemoryRepository()
     {
         _points = new ConcurrentDictionary<string, List<Point>>();
     }

@@ -13,10 +13,18 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Squares.Configuration\Squares.Configuration.csproj" />
       <ProjectReference Include="..\Squares.Database.Memory\Squares.Database.Memory.csproj" />
+      <ProjectReference Include="..\Squares.Database.Redis\Squares.Database.Redis.csproj" />
       <ProjectReference Include="..\Squares.DTO\Squares.DTO.csproj" />
       <ProjectReference Include="..\Squares.Services\Squares.Services.csproj" />
       <ProjectReference Include="..\Squares\Squares.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="docker-compose.yml">
+        <DependentUpon>Dockerfile</DependentUpon>
+      </None>
     </ItemGroup>
 
 </Project>
