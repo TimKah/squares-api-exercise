@@ -19,7 +19,12 @@ Considerations for the future:
 * Implement proper API testing
 
 ## How to run
-Open Powershell and run the file "run.ps1" in the root
+First, you have to go to the app settings and choose memory type. Currently there are only 2 options:
+ * Memory storage (everything would be stored in the program itself)
+ * Redis database
 
-## How to use
-Chrome with Swagger page should be opened. If not, please use "https://localhost:7261/swagger/index.html" link to open Swagger in your chosen browser.
+For memory storage choose "MemoryStorage", for Redis database choose "RedisDatabase"
+
+There are 2 options to launch:
+ * Open Powershell and run the file "run.ps1" in the root (works only with memory storage)
+ * Open the command line and enter "docker compose up --build" (you have to have an installed Docker) and open "http://localhost:8000/swagger/index.html"
