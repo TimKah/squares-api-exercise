@@ -19,7 +19,7 @@ public class CustomExceptionFilterAttribute : ExceptionFilterAttribute
                 context.Result = new BadRequestObjectResult("It is not possible to form the shape");
                 break;
             default:
-                context.Result = new BadRequestObjectResult("Something went wrong");
+                context.Result = new BadRequestObjectResult(context.Exception.Message);
                 break;
         }
     }

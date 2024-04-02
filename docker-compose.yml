@@ -4,7 +4,11 @@ services:
     image: squares.api
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Squares.API/Dockerfile
+    ports:
+      - '8000:80'
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
   redis:
     image: redislabs/redismod
     ports:

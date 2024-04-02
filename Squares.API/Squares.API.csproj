@@ -21,10 +21,4 @@
       <ProjectReference Include="..\Squares\Squares.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <None Update="docker-compose.yml">
-        <DependentUpon>Dockerfile</DependentUpon>
-      </None>
-    </ItemGroup>
-
 </Project>
